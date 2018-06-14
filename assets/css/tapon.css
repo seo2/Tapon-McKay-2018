@@ -1,0 +1,24 @@
+html,body{min-height: 100%;}
+body{    border-top: 5px solid #fbe33b; background: url(../img/bg.jpg) no-repeat center top; background-size: cover;}
+
+
+footer { position: relative; position: relative; margin-bottom: 50px; }
+
+footer ul#nav_footer { margin: 0; margin-top: 30px; padding: 0 10px; list-style-type: none; background: #e31e26}
+
+footer ul#nav_footer li { display: inline-block; border-right: 2px solid #f8b031; padding-left:30px; padding-right: 30px; }
+footer ul#nav_footer li:first-child { padding-left: 0; padding-right: 30px; }
+footer ul#nav_footer li:last-child { padding-left: 30px;  padding-right: 0; border-right: none; }
+
+
+footer ul#nav_footer li a { display: inline-block; font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif; font-weight: 300; font-size: 16px; color: white; text-transform: uppercase; }
+footer ul#nav_footer li a:hover { text-decoration: underline; }
+
+@media (max-width: 767px) { 
+	
+	header{margin: 20px auto 30px;}
+	
+	footer ul#nav_footer { margin-right: 15px; } 
+	footer ul#nav_footer li,footer ul#nav_footer li:first-child { display: block; text-align: right; margin: 10px 0; padding-right: 10px; padding-left: 0;}
+	footer ul#nav_footer li:last-child { padding-right: 10px; border-right: 2px solid #f8b031; }
+}
